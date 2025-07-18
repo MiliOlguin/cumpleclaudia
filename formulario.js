@@ -1,7 +1,7 @@
 // formulario.js
 
 // Inicializar EmailJS con tu User ID (lo sacás desde el panel de EmailJS > Account > API Keys)
-emailjs.init("a733I9jJTYTs-E"); // Reemplazá esto con tu User ID real
+emailjs.init("a73IMy3I9jJTYTs-E"); // Reemplazá esto con tu User ID real
 
 // Esperar que el DOM esté cargado
 document.addEventListener('DOMContentLoaded', function () {
