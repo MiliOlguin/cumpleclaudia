@@ -64,8 +64,12 @@
         
     } 
     .campos-de-texto{
-      display:none;
+      display:none;/* none === ocultamos contenido*/
       transition: all 0.3s ease;
+    }
+    .datos{
+      display: none;
+      
     }
   </style>
 </head>
@@ -97,6 +101,21 @@
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script src="index.js"></script>
     <script src="formulario.js"></script>
+    <div class="datos" id="datos">
+      <div id="fecha">
+        <h3>Sábado 26 de Julio</h3>
+      </div>
+      <div id="horario">
+        <h3>20:00hs</h3>
+      </div>
+      <div id="ubicación">
+        <button> 
+          <a href="https://maps.app.goo.gl/V1m8afuvXQUMnXMG7">
+            Ver ubicación📍
+          </a>
+        </button>
+      </div>
+    </div>
   </div>
   </body>
 
