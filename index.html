@@ -50,13 +50,13 @@
       font-family: cursive;
     }
 
-    .campo-email {
+    .etiqueta-email {
       font-size: 14px;
       margin-bottom: 15px;
       font-family: cursive;
     }
 
-    .campos-de-texto {
+    .etiqueta-invitado {
       font-size: 14px;
       margin-bottom: 20px;
       font-family: cursive;
@@ -120,14 +120,14 @@
 
     <form class="campos-de-texto" id="formulario">
         <div class="campo-email">
-            <label>Correo electrónico</label>
-            <input name="email" type="email"> 
+            <label class="etiqueta-email">Correo electrónico</label>
+            <input class="input-email" name="email" type="email"> 
         </div>
         
         
         <div class="campo-invitados">
-            <label>Nombres de invitados</label>
-            <input name="message" type="textarea">
+            <label clase="etiqueta-invitado">Nombres de invitados</label>
+            <input class="input-invitado" name="message" type="textarea">
         </div> 
     <button type="submit" class="btn-enviar btn">Enviar</button>
     </form>
