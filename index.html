@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cumpleaños Claudia</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .card {
+      background-color: #ffa9eb;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: #ff83c1;
+      font-family: cursive;
+      text-shadow:
+        -1px -1px 0 #ffffff,  
+        1px -1px 0 #ffffff,
+        -1px 1px 0 #b97dba,
+        1px 1px 0 #ffffff;
+    }
+   
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      font-family: cursive;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .btn-aceptar {
+      background-color: #4CAF50;
+      color: rgb(255, 255, 255);
+    }
+
+    .btn-rechazar {
+      background-color: #f44336;
+      color: white;
+    }
+    .conte-botones {
+        /*background-color: gray; /*COLOR DE FONDO*/
+        /*height: 60px; /* ALTURA*/
+        /*width: 120px /* ANCHO*/
+        
+        padding: 20px;
+        
+    } 
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Te Invito a Mi Cumpleaños</h1>
+    <p>Hola, te invito a mi cumpleaños
+        
+    <div class="conte-botones">
+      <button class="btn-aceptar btn">Aceptar</button>
+      <button class="btn-rechazar btn">Rechazar</button>
+      
+    </div>
+
+    <form class="campos-de-texto" id="formulario">
+        <div class="campo-email">
+            <label>Correo electrónico</label>
+            <input type="email"> 
+        </div>
+        
+        
+        <div class="campo-invitados">
+            <label>Nombres de invitados</label>
+            <input type="textarea">
+        </div> 
+    <button type="submit" class="btn-enviar btn">Enviar</button>
+    </form>
+    <link rel="stylesheet" href="formulario.js">
+  </div>
+  </body>
+
+      
+
