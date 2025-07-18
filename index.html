@@ -63,6 +63,10 @@
         padding: 20px;
         
     } 
+    .campos-de-texto{
+      display:none;
+      transition: all 0.3s ease;
+    }
   </style>
 </head>
 <body>
@@ -72,7 +76,7 @@
     <p>Hola, te invito a mi cumpleaños
         
     <div class="conte-botones">
-      <button class="btn-aceptar btn">Aceptar</button>
+      <button class="btn-aceptar btn" id="btn-aceptar">Aceptar</button>
       <button class="btn-rechazar btn">Rechazar</button>
       
     </div>
@@ -91,6 +95,7 @@
     <button type="submit" class="btn-enviar btn">Enviar</button>
     </form>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="index.js"></script>
     <script src="formulario.js"></script>
   </div>
   </body>
